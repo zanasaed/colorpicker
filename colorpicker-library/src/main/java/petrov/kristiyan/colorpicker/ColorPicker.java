@@ -579,5 +579,13 @@ public class ColorPicker {
         this.marginBottom = bottom;
         return this;
     }
+    
+    //** 
+    //edite button name 
+    //**
+    public  void positiveTextbutton(String text){
+
+        this.positiveText = context.getString(text);
+    }
 
 }
